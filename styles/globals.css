@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.025em;
+}
+
+body {
+  overflow-x: hidden;
+  padding-bottom: 100px;
+}
+
+.background-image {
+  background: url('/bg.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.background-image-rotated {
+  background: url('/bg_rotated.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media only screen and (min-width: 640px) {
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  * {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  * {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+}
+
+#WEB3_CONNECT_MODAL_ID > div {
+  z-index: 1000;
+}
