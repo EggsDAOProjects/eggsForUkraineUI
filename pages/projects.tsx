@@ -271,12 +271,13 @@ const Projects: NextPage = () => {
             ]}
           />
           <ProjectDescription
-            title="3x Cards from The CryptoCards Collection (2018)"
-            value={0.4}
-            img="https://pbs.twimg.com/profile_images/1477978145047339015/lRSBbcFW_400x400.jpg"
+            title="4x Cards from The CryptoCards Collection (2018)"
+            value={0.98}
+            img="/crypto_cards.png"
             subtitle={<>Donated by <a href="https://twitter.com/the_cryptocards" target="_blank" rel="noreferrer" className="underline">@CryptoCards</a></>}
             opensea="https://opensea.io/collection/cryptocards-collection"
             paragraphs={[
+              "Cards donated: The Bitcoin Sell-Off, The Bitfinex Hack, Bitcoin Gold Fork, IRS and Coinbase",
               "The Cryptocards collection was created at the dawn of what is considered cryptoart or NFTs today being minted on January 2018.",
               "It is the only NFT collection chronicling the history of Bitcoin until Jan 2018 with 64 cards with a total supply of 8.451.",
               "The initial CryptoCards were issued as a ERC-20, but we developed an ERC1155 wrapper to make them available on OpenSea.",
@@ -285,8 +286,8 @@ const Projects: NextPage = () => {
             ]}
           />
           <ProjectDescription
-            title="Derage"
-            value={0.1}
+            title="4x Derage"
+            value={0.4}
             img="https://lh3.googleusercontent.com/Bs2eUUmyvjM7RmU1CHA6dSKhpsQAsx6BNSShzvAW0AvBvOS_TuQdCcORmwKcBxxK1NwHdEO2eF67Fe76vtdXF_DiPAT_ca4sBpgh=s0"
             opensea="https://opensea.io/collection/derage"
             subtitle={<>Donated by <a href="https://twitter.com/darkfarms1" target="_blank" rel="noreferrer" className="underline">@Darkfarms1</a></>}
@@ -330,6 +331,72 @@ const Projects: NextPage = () => {
             paragraphs={[
               "Their goal is to create a complete ecosystem with an app Meta-Connect and a Metaverse Meta-Life",
               "Poseidon DAO is a DAO that invests in the NFT space, poised to capture history’s greatest new tech.",
+              "This NFT is one of our raffle prizes.",
+              "All wallets that mint an EggForUkraine automatically enter the raffle." 
+            ]}
+          />
+          <ProjectDescription
+            title="SMUGPEPE"
+            value={4.2}
+            img="https://lh3.googleusercontent.com/ED5pBrn4ZwkXmMCS9kw2YP4surdEPJNveheU8Ekzjpdivlz228ZgCFfO0lkY-BQlvlNOBbhejXcnNsHwWAnkeuaHEVfLImsOHBgPpaM=w600"
+            opensea="https://opensea.io/collection/emblem-vault?collectionSlug=emblem-vault&search[sortBy]=PRICE&search[sortAscending]=true&search[stringTraits][0][name]=Rare%20Pepe&search[stringTraits][0][values][0]=SMUGPEPE"
+            subtitle={<>Donated by <a href="https://twitter.com/pepe__wtf" target="_blank" rel="noreferrer" className="underline">@pepe__wtf</a></>}
+            paragraphs={[
+              "SMUGPEPE is Card 48 of Series 15, Minted in September 2017 by Finest Rares.",
+              "Rare Pepes represent the birth of CryptoArt on the Bitcoin blockchain, created by various artists world wide between 2016 and 2018. They are based on Pepe the Frog and traded as non-fungible tokens (NFTs) on the CounterParty platform.",
+              "This NFT is one of our raffle prizes.",
+              "All wallets that mint an EggForUkraine automatically enter the raffle." 
+            ]}
+          />
+          <ProjectDescription
+            title="GNOMECARD (2016) 'The First Delivery'"
+            value={0.25}
+            img="https://cdn.discordapp.com/attachments/946571403677794334/948212305102008350/IMG_2150.jpg"
+            opensea="https://opensea.io/assets/emblem-vault?search[stringTraits][0][name]=Spells%20of%20Genesis&search[stringTraits][0][values][0]=GNOMECARD&search[sortAscending]=true&search[sortBy]=PRICE"
+            subtitle={<>Donated by <a href="https://twitter.com/NftHole" target="_blank" rel="noreferrer" className="underline">@NftHole</a></>}
+            paragraphs={[
+              "Spells of Genesis featured the world’s first tokenized blockchain gaming assets.",
+              "NOMECARD (2016) \"The First Delivery\" depicts the infamous Bitcoin pizza transaction that took place in 2010, where a man in Florida paid for two pizzas using 10,000 Bitcoin",
+              "Supply: 1 of 2000",
+              "Minted: 22nd June 2016",
+              "This NFT is one of our raffle prizes.",
+              "All wallets that mint an EggForUkraine automatically enter the raffle." 
+            ]}
+          />
+          <ProjectDescription
+            title="3x Alto City"
+            value={0.27}
+            img="https://cdn.discordapp.com/attachments/946571403677794334/948592305898672158/IMG_2161.png"
+            opensea="https://opensea.io/collection/altocity"
+            subtitle={<>Donated by <a href="https://twitter.com/alto_city" target="_blank" rel="noreferrer" className="underline">@alto_city</a></>}
+            paragraphs={[
+              "Launched in August 2021.  Spanning the globe are 1060 cities in 15 different colour schemes, 9 original and 6 reflecting tributes to famous artists. The collection comprises of a total of 15,900 unique NFTs.",
+              "This NFT is one of our raffle prizes.",
+              "All wallets that mint an EggForUkraine automatically enter the raffle." 
+            ]}
+          />
+          <ProjectDescription
+            title="3x CryptoKitties"
+            value={0}
+            img="https://lh3.googleusercontent.com/0HDc8FOdl1_Ax0xTtYUjP8cpUeyPXmIZFR6CPBxFctAJEYZ_KU0btrgyYaOfbG0D1ymVxNVq7zx0bLSm0HpyJ_mo9Q=w600"
+            opensea="https://opensea.io/collection/cryptokitties"
+            subtitle={<>Donated by <a href="https://twitter.com/shazgd" target="_blank" rel="noreferrer" className="underline">@shazgd</a></>}
+            paragraphs={[
+              "CryptoKitties is a blockchain game on Ethereum built by Dapper Labs in 2017.",
+              "ShazGd builds products that make our lives a bit easier, like http://givingbackeasily.com/",
+              "Kitties donated: 883986 (Gen0), 1110414 (Gen5), 2010889 (Gen6)",
+              "This NFT is one of our raffle prizes.",
+              "All wallets that mint an EggForUkraine automatically enter the raffle." 
+            ]}
+          />
+          <ProjectDescription
+            title="MondriMaps - Kyiv"
+            value={0.15}
+            img="https://lh3.googleusercontent.com/A9cH5klN-iSyZu30assLZl_bgWg-KIXJ1yaR95l59ScgdoV-YNvTB9Kf68G72CcsM4h9putimbxsxZpMI6m2KNyPSaFLXlyF1B3NKw=w600"
+            opensea="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/94745642509399252745101987571548674507040472797340692733845026307454070161409/"
+            subtitle={<>Donated by <a href="https://twitter.com/nifty_1337" target="_blank" rel="noreferrer" className="underline">@nifty_1337</a></>}
+            paragraphs={[
+              "A collection which will consist of max. 300 of the most beautiful cities in the world. Created with AI and inspired by the famous Dutch painter, Piet Mondriaan.",
               "This NFT is one of our raffle prizes.",
               "All wallets that mint an EggForUkraine automatically enter the raffle." 
             ]}

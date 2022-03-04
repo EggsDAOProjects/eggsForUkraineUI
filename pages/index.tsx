@@ -223,7 +223,7 @@ const Home: NextPage = () => {
         <h2 className="mt-24 text-4xl font-bold text-white block text-center">Raffle Prizes</h2>
         <div className="text-white md:w-1/2 mx-auto px-4">
           <p className="mt-4">Over 100 eth of prizes have been donated to the cause. Every 0.02 spent on minting / donating to EggsForUkraine will get 1 entry into the raffle.</p>
-          <p className="mt-4 text-xl font-bold">Total value: 117.02Ξ</p>
+          <p className="mt-4 text-xl font-bold">Total value: 122.47Ξ</p>
           <p className="mt-4">These are the prizes on offer:</p>
           <ul className="mt-4 list-disc list-inside">
             <li>Experience #28 by Laith Safa - Floor: <strong>1.5Ξ</strong></li>
@@ -240,12 +240,17 @@ const Home: NextPage = () => {
             <li>PixelMap Tile #1406 - Floor: <strong>1.75Ξ</strong></li>
             <li>OCM Dessert: D1 Incredible Ice Pop - Floor: <strong>0.6Ξ</strong></li>
             <li>3D Somnium Avatar by R00T and Blake Hotz - Floor: <strong>1Ξ</strong></li>
-            <li>Derage - Floor: <strong>0.1Ξ</strong></li>
+            <li>4x Derage - Floor: <strong>0.4Ξ</strong></li>
             <li>Norte by Sep (CryptoArte) - Floor: <strong>0.075Ξ</strong></li>
-            <li>3x Cryptocards - Combined Floor: <strong>0.4Ξ</strong></li>
+            <li>4x Cryptocards - Combined Floor: <strong>0.98Ξ</strong></li>
             <li>10x NFT2040 - Combined Floor: <strong>3.5Ξ</strong></li>
             <li>ALPACADABRAZ - Floor: <strong>0.2Ξ</strong></li>
             <li>Meta Legend - Floor: <strong>0.16Ξ</strong></li>
+            <li>SMUGPEPE - Floor: <strong>4.2Ξ</strong></li>
+            <li>GNOMECARD (2016) - Floor: <strong>0.25Ξ</strong></li>
+            <li>3x Alto City - Floor: <strong>0.27Ξ</strong></li>
+            <li>3x Crypto Kitties</li>
+            <li>MondriMaps - Kyiv - Floor: <strong>0.15Ξ</strong></li>
           </ul>
         </div>
       </main>

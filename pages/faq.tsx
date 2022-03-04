@@ -61,8 +61,8 @@ const About: NextPage = () => {
               </a>
             </li>
             <li>
-              <a href="https://savelife.in.ua" className="underline" target="_blank" rel="noreferrer">
-                Save Life – savelife.in.ua
+              <a href="https://www.comebackalive.in.ua/" className="underline" target="_blank" rel="noreferrer">
+                Save Life – www.comebackalive.in.ua
               </a>
             </li>
             <li>
