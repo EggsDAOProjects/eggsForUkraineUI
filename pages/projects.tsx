@@ -356,7 +356,7 @@ const Projects: NextPage = () => {
             subtitle={<>Donated by <a href="https://twitter.com/NftHole" target="_blank" rel="noreferrer" className="underline">@NftHole</a></>}
             paragraphs={[
               "Spells of Genesis featured the world’s first tokenized blockchain gaming assets.",
-              "NOMECARD (2016) \"The First Delivery\" depicts the infamous Bitcoin pizza transaction that took place in 2010, where a man in Florida paid for two pizzas using 10,000 Bitcoin",
+              "GNOMECARD (2016) \"The First Delivery\" depicts the infamous Bitcoin pizza transaction that took place in 2010, where a man in Florida paid for two pizzas using 10,000 Bitcoin",
               "Supply: 1 of 2000",
               "Minted: 22nd June 2016",
               "This NFT is one of our raffle prizes.",
