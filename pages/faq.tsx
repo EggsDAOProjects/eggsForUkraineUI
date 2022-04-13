@@ -80,6 +80,11 @@ const About: NextPage = () => {
                 Kyiv Independent  – twitter.com/KyivIndependent
               </a>
             </li>
+            <li>
+              <a href="https://CryptoArtUkraine.com/en" className="underline" target="_blank" rel="noreferrer">
+                Crypto Art Ukraine - cryptoartukraine.com/en (0x9B50BF39C91E2F55DA5D87239017B49BFF9DE1E5)
+              </a>
+            </li>
           </ul>
           <p>
             All beneficiaries have public cryptocurrency wallets.

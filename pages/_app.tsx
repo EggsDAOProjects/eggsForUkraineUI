@@ -49,6 +49,11 @@ const Header: React.FC = () => {
           About EggsDAO
         </span>
       </Link>
+      <a href="https://snapshot.org/#/eggsforukraine.eth">
+        <span className="text-white font-bold cursor-pointer">
+          Vote
+        </span>
+      </a>
       <a href={`https://etherscan.io/address/${account}`} target="_blank" rel="noreferrer">
         <span className="text-white opacity-80 underline font-bold cursor-pointer">
           {truncatedAccount}

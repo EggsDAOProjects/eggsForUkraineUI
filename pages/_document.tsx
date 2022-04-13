@@ -1,5 +1,26 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyC90NPhPuCuRR0cxJKZ9t3bbebjorKNtQc",
+  authDomain: "eggs-for-ukraine.firebaseapp.com",
+  projectId: "eggs-for-ukraine",
+  storageBucket: "eggs-for-ukraine.appspot.com",
+  messagingSenderId: "796694096950",
+  appId: "1:796694096950:web:380424dc55475863703c97",
+  measurementId: "G-BE2YG171D0"
+};
+
+if (typeof window !== "undefined") {
+  console.log('window');
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+}
+
 export default function Document() {
   return (
     <Html>
